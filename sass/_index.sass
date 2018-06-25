@@ -1,0 +1,181 @@
+@keyframes updownAni 
+	0%
+		margin-bottom: 10px
+	50%
+		margin-bottom: 0
+	100% 
+		margin-bottom: 10px
+
+=animationUpDown
+	+animation(updownAni 1s infinite)
+
+html,body 
+	width: 100%
+	height: 100%
+
+
+=fullPage 
+	width: 100%
+	height: 100%
+	position: absolute
+	top: 0
+	left: 0
+
+ 
+.bigContainer 
+
+	+fullPage
+	max-width: 640px
+	left: 50%
+	margin-left: -320px	
+	overflow: auto
+	.container 
+		.footer
+			position: absolute
+			width: 100%
+			top: 0
+			height: 88px
+			background-color: white
+			+bgi('footer.png')
+			.logo
+				+bg('logo.png')
+				height: 28px
+				position: absolute
+				right: 30px
+				top: 28px
+		+fullPage
+		+dTime
+		&.bigSize 
+			+scale(1.7)
+			+transform-origin(0,0) 
+		.logo
+			+bg('logo.png')
+			top: 40px
+			right: 30px
+			position: absolute
+			z-index: 5
+
+		.copyright
+			+bg('copyright.png')
+			position: absolute
+			right: 25px
+			bottom: 25px
+			z-index: 5
+		// page common style init
+		.page 
+			+coverBg 
+			+bgi('bg.jpg')
+			+divGoVerticalCenter_forMom
+			+fullPage
+			display: none
+			
+			.wrap 	
+				+divGoVerticalCenter_forKid
+				position: relative
+
+				.content 
+					position: absolute
+					top: 0
+					left: 0
+
+					&:first-child
+						position: relative
+		.pageArr
+			+bg('arr.png')
+			position: absolute
+			bottom: 15px
+			left: 50%
+			margin-left: -30px 
+			+animationUpDown
+
+		
+		@for $i from 1 through 7
+			// content pic
+			.p#{$i} 
+				.wrap
+					@for $j from 1 through 10 
+						> .content:nth-child(#{$j})
+							+bg('p#{$i}.png')
+
+			// channel
+			&.channel_#{$i}	
+				.p#{$i}	
+					display: block
+					
+	
+		
+
+
+.calendarPop
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	z-index: 20
+	+divGoVerticalCenter_forMom
+
+	.bg 
+		width: 100%
+		position: absolute
+		height: 100%
+		left: 0
+		top: 0
+		background-color: rgba(black,0.7)
+
+	.wrap
+		width: 550px
+		padding: 50px
+		background-color: white
+		+border-radius(10px)
+		position: relative
+		+divGoVerticalCenter_forKid
+
+		.btn
+			+border-radius(10px)
+			margin: 40px auto 0
+			height: 120px
+			line-height: 120px
+			color: white
+			cursor: pointer
+			display: block
+
+		.blueBtn
+			background-color: #3b79c6
+
+		.greenBtn
+			background-color: #2baf4a	
+			
+		.clozBtn
+			position: absolute
+			top: -60px
+			right: 0
+			+bg('cloz.png')
+
+
+ 
+// costom rule
+.bigContainer 
+	.container
+		
+		.page.p1  
+			+bgi('bg1.jpg')
+			.content
+				margin-top: 0
+				margin-bottom: 300px
+		.page.p6 
+			.calendarBtn
+				position: absolute
+				width: 250px
+				height: 230px
+				top: 330px
+				left: 280px
+				// border: 1px solid #000
+			.joinBtn
+				position: absolute
+				width: 250px
+				height: 230px
+				top: 330px
+				left: 0 
+				// border: 1px solid red
+			
