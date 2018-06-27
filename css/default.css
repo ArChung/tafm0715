@@ -3142,18 +3142,15 @@ html, body {
   position: absolute;
   width: 100%;
   top: 0;
-  height: 88px;
   background-color: white;
-  background-image: url("../images/footer.png");
 }
 .bigContainer .container .footer .logo {
-  width: 52px;
-  height: 27px;
+  width: 94px;
+  height: 94px;
   background-image: url("../images/logo.png");
-  height: 28px;
   position: absolute;
-  right: 30px;
-  top: 28px;
+  right: 0;
+  top: 0;
 }
 .bigContainer .container.bigSize {
   -moz-transform: scale(1.7, 1.7);
@@ -3166,8 +3163,8 @@ html, body {
   transform-origin: 0 0;
 }
 .bigContainer .container .logo {
-  width: 52px;
-  height: 27px;
+  width: 94px;
+  height: 94px;
   background-image: url("../images/logo.png");
   top: 40px;
   right: 30px;
@@ -3228,212 +3225,212 @@ html, body {
   animation: updownAni 1s infinite;
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(1) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(2) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(3) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(4) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(5) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(6) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(7) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(8) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(9) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container .p1 .wrap > .content:nth-child(10) {
-  width: 525px;
-  height: 238px;
+  width: 460px;
+  height: 82px;
   background-image: url("../images/p1.png");
 }
 .bigContainer .container.channel_1 .p1 {
   display: block;
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(1) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(2) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(3) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(4) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(5) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(6) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(7) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(8) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(9) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container .p2 .wrap > .content:nth-child(10) {
-  width: 538px;
-  height: 743px;
+  width: 505px;
+  height: 552px;
   background-image: url("../images/p2.png");
 }
 .bigContainer .container.channel_2 .p2 {
   display: block;
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(1) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(2) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(3) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(4) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(5) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(6) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(7) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(8) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(9) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container .p3 .wrap > .content:nth-child(10) {
-  width: 539px;
-  height: 745px;
+  width: 523px;
+  height: 563px;
   background-image: url("../images/p3.png");
 }
 .bigContainer .container.channel_3 .p3 {
   display: block;
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(1) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(2) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(3) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(4) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(5) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(6) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(7) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(8) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(9) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container .p4 .wrap > .content:nth-child(10) {
-  width: 547px;
-  height: 737px;
+  width: 562px;
+  height: 616px;
   background-image: url("../images/p4.png");
 }
 .bigContainer .container.channel_4 .p4 {
@@ -3639,26 +3636,19 @@ html, body {
   background-image: url("../images/cloz.png");
 }
 
-.bigContainer .container .page.p1 {
-  background-image: url("../images/bg1.jpg");
-}
-.bigContainer .container .page.p1 .content {
-  margin-top: 0;
-  margin-bottom: 300px;
-}
-.bigContainer .container .page.p6 .calendarBtn {
+.bigContainer .container .page.p4 .calendarBtn {
   position: absolute;
-  width: 250px;
-  height: 230px;
-  top: 330px;
-  left: 280px;
+  width: 170px;
+  height: 170px;
+  top: 460px;
+  left: 100px;
 }
-.bigContainer .container .page.p6 .joinBtn {
+.bigContainer .container .page.p4 .thsrcBtn {
   position: absolute;
-  width: 250px;
-  height: 230px;
-  top: 330px;
-  left: 0;
+  width: 170px;
+  height: 170px;
+  top: 460px;
+  left: 290px;
 }
 
 .padShow {
