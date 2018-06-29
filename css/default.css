@@ -3121,7 +3121,7 @@ html, body {
   height: 159px;
   background-image: url("../images/logo2.png");
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: -40px;
 }
 
@@ -3611,7 +3611,7 @@ html, body {
 
 .bigContainer .container .page.p2 {
   text-align: center;
-  padding-top: 240px;
+  padding-top: 180px;
 }
 .bigContainer .container .page.p2 .wrap {
   display: inline-block;
