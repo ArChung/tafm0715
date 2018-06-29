@@ -3609,6 +3609,14 @@ html, body {
   background-image: url("../images/cloz.png");
 }
 
+.bigContainer .container .p1 .word {
+  width: 90px;
+  height: 6px;
+  background-image: url("../images/wording.png");
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+}
 .bigContainer .container .page.p2 {
   text-align: center;
   padding-top: 180px;
