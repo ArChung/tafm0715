@@ -21,7 +21,12 @@ html,body
 	top: 0
 	left: 0
 
- 
+.logo2
+	+bg('logo2.png')
+	position: absolute
+	top: 200px
+	left: -40px
+
 .bigContainer 
 
 	+fullPage
@@ -65,12 +70,15 @@ html,body
 		.page 
 			+coverBg 
 			+bgi('bg.jpg')
-			+divGoVerticalCenter_forMom
 			+fullPage
 			display: none
 			
+			&:not(.p2)
+				+divGoVerticalCenter_forMom
+				.wrap
+					+divGoVerticalCenter_forKid
+					
 			.wrap 	
-				+divGoVerticalCenter_forKid
 				position: relative
 
 				.content 
@@ -160,10 +168,14 @@ html,body
 		
 		.page.p2  
 			// +bgi('bg1.jpg') 
+			text-align: center
+			padding-top: 240px
+
 			.wrap 
-				padding-bottom: 90px
-				// margin-bottom: 300px
-		.page.p4
+				display: inline-block
+				.content
+					// margin: 0 auto
+		.page.p4 
 			.calendarBtn  
 				position: absolute
 				
